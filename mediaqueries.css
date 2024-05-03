@@ -2,6 +2,7 @@
     /* this section contains all the styling for the top section */
     body{
         width: 100svw;
+        overflow-x: hidden;
         margin: 10px;
     }
     .oga{
