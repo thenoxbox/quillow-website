@@ -1,0 +1,484 @@
+   /* this is the beginning of the section that holds all the external fonts  */
+
+   @font-face {
+    font-family: ryker-demo-bold;
+    src: url(/fonts/Demo_Fonts/Fontspring-DEMO-rykertext-bold.otf);
+    }
+    @font-face {
+        font-family: ryker-demo-regular;
+        src: url(/fonts/Demo_Fonts/Fontspring-DEMO-ryker-regular.otf);
+    }
+/* this is the end of the specified section */
+
+
+/* this section contains all the styling for the top section */
+::placeholder{
+color: #BABCC9;
+}
+.firstone{
+font-family: "Inter", sans-serif;
+font-weight: 600;
+border-radius: 6px;
+color: #191919;
+background-color: aliceblue;
+border: 1px solid aliceblue;
+padding: 8px 14px;
+}
+.secondone{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+padding: 8px 14px;
+border-radius: 6px;
+color: white;
+border: 1px solid white;
+background-color: #7f51f2;
+background-image: linear-gradient(160deg, #7f51f2 0%, #ae7cee 50%);
+}
+.ashley{
+display: grid; 
+grid-auto-columns: 1fr; 
+gap: 30px;
+grid-template-rows: auto;
+width: 100vw; 
+margin-bottom: 30px;
+}
+.oga{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 600px;
+margin-bottom: 100px;
+}
+.zaheadingcon{
+width: 90%;
+background-image: url(/images/image\ 2.png);
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 20px;
+border-radius: 16px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+}
+.zaheading{
+background-image: url(/images/Grid.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-bottom: 20px;
+}   
+.zaheading h1{
+margin-top: 72px;
+font-family: "ryker-demo-bold", sans-serif;
+font-size: 56px;
+color: white;
+text-align: center;
+animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+/* begining */
+
+@keyframes tracking-in-expand-fwd {
+0% {
+letter-spacing: -0.5em;
+transform: translateZ(-700px);
+opacity: 0;
+}
+40% {
+opacity: 0.6;
+}
+100% {
+transform: translateZ(0);
+opacity: 1;
+}
+}
+/* end of animation */
+.zaheading p{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+color: white;
+font-size: 18px;
+text-align: center;
+width: 100%;
+}
+.dread{
+border-radius: 64px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+padding: 20px 22px;
+border: 1px solid white;
+margin-top: 20px;
+width:380px;
+
+}
+.dreading{
+margin-top: 20px;
+padding: none;
+border: none;
+background-color: transparent;
+}
+
+/* this is the end of the styling for the top section */
+
+/* this is the start of the styling for the mini-jumbotron section */
+.theminiflex{
+padding-top: 31px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100vw;
+}
+.mininigga{
+margin-top: 70px;
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-rows: auto auto; 
+gap: 31px px; 
+}
+.theminitext{
+width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.theheader{
+display: flex;
+flex-wrap: wrap;
+width: 771px;
+}
+.theheader h1{
+font-family: ryker-demo-bold;
+text-align: center;
+color: #361652;
+font-size: 64px;
+}
+.theheader span{
+/* Set the background gradient */
+background: linear-gradient(60deg, #ffb74a 0%, #ff4aa1 49%, #6f2bff 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+color: transparent;
+}
+.theheader p{
+text-align: center;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 24px;
+}
+.theminigrid{
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-columns: auto auto auto; 
+gap: 10px;
+}
+.devin{
+display: grid; 
+grid-auto-columns: 1fr; 
+gap: 10px;
+grid-template-rows: auto auto; 
+}
+.thekidone{
+width: 360px;
+display: flex;
+flex-wrap: wrap;
+}
+.thekidone h2{
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 24px;
+}
+.thekidtwo h2{
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 24px;
+}
+.thekidone p{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.thekidtwo p{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.thefavkid p{
+  /* Set the background gradient */
+  background: rgb(255,255,255);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -o-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -ms-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+text-fill-color: transparent;
+padding-left: 10px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.thekidtwo{
+width: 360px;
+text-align: center;
+}
+.thefavkid{
+background-image: url(/images/thecomplexgrid/middleboi.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+width: 360px;
+}
+.thefavkid h2{
+  /* Set the background gradient */
+  background: rgb(255,255,255);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -o-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -ms-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+text-fill-color: transparent;
+padding-left: 10px;
+font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 24px;
+}
+.tide{
+background-image: url(/images/thecomplexgrid/typeface.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+}
+.tide h2{
+/* Set the background gradient */
+background: rgb(255,255,255);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -o-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -ms-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+text-fill-color: transparent;
+padding-left: 10px;
+}
+.tide p{
+  /* Set the background gradient */
+  background: rgb(255,255,255);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -o-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -ms-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+text-fill-color: transparent;
+padding-left: 10px;
+padding-left: 10px;
+}
+.bride{
+background-color: #F7F8FC;
+border-radius: 20px;
+}
+.bride h2 , .bride p{
+font-weight: 700;
+color: #3B1B81;
+}
+.bride img{
+height: 244.66px;
+width: 100%;
+}
+.weezy{
+text-align: center;
+background-image: url(/images/thecomplexgrid/thelast.png);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 20px;
+}
+.weezy h2 , .weezy p{
+  /* Set the background gradient */
+  background: rgb(255,255,255);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -o-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: -ms-linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.73) 100%);
+
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+text-fill-color: transparent;
+padding-left: 10px;
+}
+.breezy{
+background-image: url(/images/thecomplexgrid/thelastone.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 244px;
+}
+.breezy h2{
+font-weight: 700;
+color: #3B1B81;
+}
+/* this is the end of the styling for the section specified above */
+
+/* this is the beginning of the styling for the "tlsection section" */
+.tlsflex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 136px;
+}
+.tlsinnerds{
+background: rgb(219,249,255);
+background: linear-gradient(180deg, rgba(219,249,255,1) 0%, rgba(255,255,255,0.73) 100%);
+padding: 80px;
+border-radius: 20px;
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-rows: auto auto; 
+gap: 27.47px;
+}
+.tlsinnerds1{
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-columns: auto auto; 
+gap: 155px;
+background-image: url(/images/gwidtwo.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.tlstone{
+width: 629px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.tlstone button{
+border-radius: 48px;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+padding: 8px 24px;
+background-color: #ffff;
+border: 1px solid #ffff;
+}
+.tlstone h1{
+font-family: "ryker-demo-bold", sans-serif;
+font-size: 64px;
+color: #2C1250;
+}
+.tlstone span{
+/* Set the background gradient */
+background: linear-gradient(90deg, rgba(26,236,210,1) 0%, rgba(26,220,248,1) 32%, rgba(34,172,255,1) 51%, rgba(44,114,255,1) 96%);
+/* Clip the background to the text */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+
+/* Set the color of the text to transparent */
+color: transparent;
+}
+.tlstone p{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #2C1250;
+}
+.tlsinnerds2{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+.tlsinnerds5{
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-columns: auto auto auto; 
+gap:39px;
+width: auto; 
+}
+.nerdone{
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-rows: auto auto; 
+gap: 32px; 
+}
+.nerdthree{
+display: grid; 
+grid-auto-columns: 1fr; 
+grid-template-rows: auto auto; 
+gap: 23px; 
+padding-right: 0px;
+}
+.kissthat{
+display: flex;
+flex-wrap: wrap;
+background-color:#ffff;
+width: 367px;
+border-radius: 20px;
+padding: 20px;
+box-shadow: 0 0 18px rgba(0, 0, 0, 0.025);
+}
+.kissthat h2{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 20px;
+}
+.kissthat p{
+font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+.bread{
+width: 363px;
+}
+.text-body-secondary{
+color: #2C1250;
+font-family: "Inter", sans-serif;
+font-weight: 500;
+}
+/* this is the end of the section specified above */

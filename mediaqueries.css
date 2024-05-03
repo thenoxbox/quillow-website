@@ -1,0 +1,117 @@
+@media (max-width:700px){
+    /* this section contains all the styling for the top section */
+    .oga{
+        height: 409px;
+        margin-bottom: 0px;
+    }
+    .zaheading h1{
+        font-size: 25px;
+    }
+    .zaheading p{
+        font-size: 12px;
+    }
+    .dread{
+        text-align: center;
+        width: 177px;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding: 6px 1.5px;
+    }
+   /* the next section */
+    .theheader{
+        width: 100vw;
+    }
+   .theheader h1{
+     padding-left: 10px;
+     padding-right: 10px;
+    font-size: 28px;
+   }
+   .theheader p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+   }
+   .theminiflex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   .theminigrid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   .thekidtwo{
+    margin-top: 20px;
+   }
+   .thefavkid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   /* new section */
+   .tlsflex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+   }
+   .tlsinnerds{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+   }
+   .tlsinnerds1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+   }
+   .tlstone{
+    text-align: center;
+    width: 100vw;
+   }
+   .tlstone button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .qua{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+   }
+   .tlstone h1{
+    margin-top: 10px;
+    font-size: 25px;
+   }
+   .tlstone p{
+    font-size: 14px;
+   }
+   .tlsinnerds2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    }
+    .tlsinnerds5{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+    .beast{
+        margin-top: -100px;
+    }
+}
