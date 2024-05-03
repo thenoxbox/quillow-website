@@ -1,7 +1,6 @@
 @media (max-width:700px){
     /* this section contains all the styling for the top section */
     html,body {
-        margin: 10px;
         overflow-x: hidden;
         overflow-y: scroll;
     }
@@ -52,12 +51,24 @@
     justify-content: center;
     align-items: center;
    }
+   .thekidone{
+    width: 340px;
+    border-radius: 20px;
+   }
    .thekidtwo{
+    width: 340px;
     margin-top: 20px;
    }
+   .thekidtwo img{
+    border-radius: 20px;
+   }
    .thefavkid{
+    width: 340px;
     margin-top: 20px;
     margin-bottom: 20px;
+   }
+   .thefavkid img{
+    width: 340px;
    }
 
    /* new section */
